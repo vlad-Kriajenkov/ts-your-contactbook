@@ -3,10 +3,10 @@ import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import PersonIcon from '@mui/icons-material/Person';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { Box, Link, Nav, LogOutBtn } from './HomeBar.styled';
-import { useAppDispatch } from '../../../redux/hook';
+
 
 const HomeBar: FC = () => {
-  // const dispatch = useAppDispatch();
+
   const onLogout = () => {};
   return ( 
     <Box>
