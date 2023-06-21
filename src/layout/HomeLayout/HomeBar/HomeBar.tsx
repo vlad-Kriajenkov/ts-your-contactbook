@@ -6,9 +6,9 @@ import { Box, Link, Nav, LogOutBtn } from './HomeBar.styled';
 import { useAppDispatch } from '../../../redux/hook';
 
 const HomeBar: FC = () => {
-  const dispatch = useAppDispatch();
+  // const dispatch = useAppDispatch();
   const onLogout = () => {};
-  return (
+  return ( 
     <Box>
       <Nav>
         <Link to="userInfo">

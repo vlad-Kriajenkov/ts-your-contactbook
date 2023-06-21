@@ -7,7 +7,7 @@ import {
   FlexWrapper,
 } from './Authorization.styled';
 import { CustomButton } from '../../../components/index';
-import { useAppDispatch, useAppSelector } from '../../../redux/hook';
+import { useAppDispatch } from '../../../redux/hook';
 import { logIn } from '../../../redux/auth/auth-operation';
 
 const Authorization: FC = () => {

@@ -9,7 +9,6 @@ import {
 import { useAppSelector } from '../../../redux/hook';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import moment from 'moment';
-import { Outlet } from 'react-router-dom';
 
 export interface IUser {
   name: string;

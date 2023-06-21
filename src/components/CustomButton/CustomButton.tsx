@@ -5,7 +5,7 @@ type Button = {
   text: string;
   
 };
-const CustomButton = ({ text }: Button) => {
+const CustomButton:FC<Button> = ({ text }) => {
   return (
     <Button type="submit" variant="contained" fullWidth>
       {text} 
