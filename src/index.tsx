@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <PersistGate loading={null} persistor={persistor}>
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename="ts-your-contactbook">
           <App />
         </BrowserRouter>
       </Provider>
