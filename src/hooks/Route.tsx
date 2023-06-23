@@ -11,8 +11,7 @@ export const Private: FC<IPrivateRoute> = ({
   redirectTo = '/',
 }): JSX.Element => {
   const token: string | null = useAppSelector(state => state.auth.token);
-  console.log(token);
-  
+
   const shouldRedirect = !token;
 
   return shouldRedirect ? <Navigate to={redirectTo} /> : component;
@@ -22,7 +21,7 @@ export const Public: FC<IPrivateRoute> = ({
   component,
   redirectTo = '/',
 }): JSX.Element => {
-  const token: string = useAppSelector(state => state.auth.token);
+  const token: string | null = useAppSelector(state => state.auth.token);
 
   return token ? <Navigate to={redirectTo} /> : component;
 };
