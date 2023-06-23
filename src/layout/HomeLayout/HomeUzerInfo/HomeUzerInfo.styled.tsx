@@ -8,7 +8,7 @@ export const Box = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  margin: 40px 0px;
+  margin: 20px 0px;
   padding: 22px 20px;
 
   background: #ffffff;
