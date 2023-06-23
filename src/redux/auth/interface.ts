@@ -12,7 +12,6 @@ export interface IUzerLogin {
 export interface IUserPromise {
   name: string;
   email: string;
-
 }
 export interface IErrorPromise {
   errorMessage: string;
@@ -20,7 +19,10 @@ export interface IErrorPromise {
 
 export interface IInitialState {
   user: IUserPromise;
-  token: string | null ;
+  token: string | null;
   isLoading: boolean;
-  isLoggedIn: boolean;
+}
+
+export interface IAction {
+  payload: IUserPromise
 }
