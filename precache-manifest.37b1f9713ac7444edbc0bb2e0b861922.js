@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2cebafe13ff6db8be4bf",
+    "revision": "210effd8ae9a33afa111",
     "url": "/ts-your-contactbook/static/css/main.ebb3d01a.chunk.css"
   },
   {
-    "revision": "2cebafe13ff6db8be4bf",
-    "url": "/ts-your-contactbook/static/js/main.cd5af727.chunk.js"
+    "revision": "210effd8ae9a33afa111",
+    "url": "/ts-your-contactbook/static/js/main.415e7655.chunk.js"
   },
   {
     "revision": "35e2722e696a4181c6c9",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/ts-your-contactbook/static/media/Background.60c3034d.png"
   },
   {
-    "revision": "a7351990027d643a2216f812beba7e2d",
+    "revision": "f3829fae1e6d43d324bd98184cf67631",
     "url": "/ts-your-contactbook/index.html"
   }
 ];
